@@ -20,7 +20,7 @@ jobs:
         include:
           - arch: armv8
             sdk_url_path: https://mirror-03.infra.openwrt.org/snapshots/targets/rockchip/armv8
-            sdk_name: friendlyarm_nanopi-r4s-squashfs-sysupgrade
+            sdk_name: -x86_64
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
